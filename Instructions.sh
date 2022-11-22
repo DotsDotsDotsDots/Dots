@@ -34,7 +34,7 @@ brew install emacs-mac --with-modules
 brew install --cask brooklyn --no-quarantine
 brew install --cask font-victor-mono-nerd-font
 brew install --cask gpg-suite
-brew install --cask betterdiscord-installer
+brew install --cask vmware-fusion
 brew install --cask podman-desktop
 brew install --cask docker
 brew install --cask keybase
