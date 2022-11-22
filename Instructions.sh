@@ -1,25 +1,21 @@
 # Install AppStore Apps:
-1)Stockfish
-2)DropZone
-3)Amphetamine
-4)Encrypto
-5)HextEdit
-6)KaBlock
-7)UserScripts
-8)XCode
-9)Vectornator
-10)Orbot
-11)Transmit
-12)Terminus
-13)TestFlight
-14)Codye
+1) Stockfish
+2) DropZone
+3) Amphetamine
+4) Encrypto
+5) HextEdit
+6) KaBlock
+7) UserScripts
+8) XCode
+9) Vectornator
+10) Orbot
+11) Transmit
+12) Terminus
+13) TestFlight
+14) Codye
 
 # Install Third Party Apps:
-1)Discord
-2)Keybase
-3)Docker
-4)BurpSuite
-5)TinkerTool
+1) TinkerTool
 
 # Install Xcode Command Line Tools:
 sudo xcode-select --install
@@ -29,12 +25,19 @@ sudo xcodebuild -license accept
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install Formulae:
-brew install asciinema bat coreutils fd fontconfig fzf gh gnupg git go lsd m-cli mas neofetch neovim nmap node podman pv radare2 ripgrep shellcheck starship thefuck tmux telegram tree vim wget alfred alt-tab amethyst android-studio appcleaner cheatsheet element fig hyper insomnia maccy minecraft neovide numi obsidian onyx postman session spotify steam topnotch visual-studio-code hiddenbar google-chrome zsh-async zsh-autosuggestions zsh-completions zsh-fast-syntax-highlighting zsh-git-prompt zsh-history-substring-search zsh-lovers zsh-navigation-tools zsh-vi-mode zsh-you-should-use
+brew install asciinema bat burp-suite coreutils discord fd fontconfig fzf gh gnupg git go lsd m-cli mas neofetch neovim nmap node podman pv radare2 ripgrep shellcheck spotify starship thefuck tmux telegram tree vim wget alfred alt-tab amethyst android-studio appcleaner cheatsheet element fig hyper insomnia maccy minecraft neovide numi obsidian onyx postman session steam topnotch visual-studio-code hiddenbar google-chrome zsh-async zsh-autosuggestions zsh-completions zsh-fast-syntax-highlighting zsh-git-prompt zsh-history-substring-search zsh-lovers zsh-navigation-tools zsh-vi-mode zsh-you-should-use
 
 # Install Casks:
-brew tap homebrew/cask-fonts && brew install --cask font-victor-mono-nerd-font
-brew tap railwaycat/emacsmacport && brew install emacs-mac --with-modules
+brew tap homebrew/cask-fonts
+brew tap railwaycat/emacsmacport
+brew install emacs-mac --with-modules
 brew install --cask brooklyn --no-quarantine
+brew install --cask font-victor-mono-nerd-font
+brew install --cask gpg-suite
+brew install --cask betterdiscord-installer
+brew install --cask podman-desktop
+brew install --cask docker
+brew install --cask keybase
 
 # Install Nix:
 sh <(curl -L https://nixos.org/nix/install)
