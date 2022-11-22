@@ -52,6 +52,9 @@ if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 fi
 
+# GPG configuration
+export GPG_TTY=$(tty)
+
 # User configuration
 export MANPATH="/usr/local/man:$MANPATH"
 
