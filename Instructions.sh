@@ -103,6 +103,11 @@ eval "$(ssh-agent -s)"
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 pbcopy < ~/.ssh/id_ed25519.pub
 
+# Setup GPG Key:
+gpg --full-generate-key
+gpg --list-secret-keys --keyid-format=long
+gpg --armor --export $Key
+
 # Setup GitHub CLI:
 gh auth login
 gh auth status
