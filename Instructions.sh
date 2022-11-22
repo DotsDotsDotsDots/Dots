@@ -19,8 +19,8 @@
 
 # Install Xcode Command Line Tools:
 sudo xcode-select --install
-softwareupdate --install-rosetta
 sudo xcodebuild -license accept
+softwareupdate --install-rosetta
 
 # Install Brew:
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
