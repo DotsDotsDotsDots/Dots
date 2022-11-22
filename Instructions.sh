@@ -19,6 +19,7 @@
 
 # Install Xcode Command Line Tools:
 sudo xcode-select --install
+softwareupdate --install-rosetta
 sudo xcodebuild -license accept
 
 # Install Brew:
