@@ -108,7 +108,12 @@ gpg --full-generate-key
 gpg --list-secret-keys --keyid-format=long
 gpg --armor --export "Key ID"
 
-# Setup GitHub CLI:
+# Setup GitHub:
+git config --global user.name "Shreyash Gavali"
+git config --global user.email "@iCloud.com"
+git config --global user.signingkey "Key ID"
+git config --global commit.gpgsign true
+
 gh auth login
 gh auth status
 
