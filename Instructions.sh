@@ -114,7 +114,6 @@ gh auth status
 
 # Setup DotFiles:
 cp ~/Dots/Configs/config ~/.ssh/config
-cp ~/Dots/Configs/.gitconfig ~/.gitconfig
 cp ~/Dots/Configs/.hyper.js ~/.hyper.js
 cp ~/Dots/Configs/.zprofile ~/.zprofile
 cp ~/Dots/Configs/.zshrc ~/.zshrc
