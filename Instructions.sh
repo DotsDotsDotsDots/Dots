@@ -106,7 +106,7 @@ pbcopy < ~/.ssh/id_ed25519.pub
 # Setup GPG Key:
 gpg --full-generate-key
 gpg --list-secret-keys --keyid-format=long
-gpg --armor --export $Key
+gpg --armor --export "Key ID"
 
 # Setup GitHub CLI:
 gh auth login
