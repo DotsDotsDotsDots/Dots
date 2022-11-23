@@ -109,6 +109,7 @@ gpg --list-secret-keys --keyid-format=long
 gpg --armor --export "Key ID"
 
 # Setup GitHub:
+git config --global core.editor "nvim"
 git config --global user.name "Shreyash Gavali"
 git config --global user.email "@iCloud.com"
 git config --global user.signingkey "Key ID"
