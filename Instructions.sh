@@ -112,11 +112,10 @@ gpg --armor --export "Key ID"
 git config --global core.editor "nvim"
 git config --global user.name "Shreyash Gavali"
 git config --global user.email "@iCloud.com"
+git config --global credential.helper "osxkeychain"
 git config --global user.signingkey "Key ID"
 git config --global commit.gpgsign true
-git config --global credential.helper osxkeychain
 gh auth login
-gh auth status
 
 # Setup DotFiles:
 cp ~/Dots/Configs/config ~/.ssh/config
