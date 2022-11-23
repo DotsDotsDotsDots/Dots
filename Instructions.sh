@@ -118,6 +118,9 @@ git config --global credential.helper "osxkeychain"
 git config --global user.signingkey "Key ID"
 git config --global commit.gpgsign true
 gh auth login
+gh auth status
+gh ssh-key list
+gh gpg-key list
 
 # Setup DotFiles:
 cp ~/Dots/Configs/config ~/.ssh/config
