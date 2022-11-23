@@ -97,16 +97,18 @@ cd ~/Developer/Site
 npm create astro@latest -- --template blog
 npm cache clean –-force
 
-# Setup SSH Key:
+# Setup Secure Shell:
 ssh-keygen -t ed25519 -C "@iCloud.com"
 eval "$(ssh-agent -s)"
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
-pbcopy < ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub | pbcopy
 
-# Setup GPG Key:
-gpg --full-generate-key
+# Setup Keybase:
+keybase pgp gen --multi
+keybase pgp export | gpg --import
+keybase pgp export --secret | gpg --allow-secret-key-import --import
+keybase pgp export | pbcopy
 gpg --list-secret-keys --keyid-format=long
-gpg --armor --export "Key ID"
 
 # Setup GitHub:
 git config --global core.editor "nvim"
