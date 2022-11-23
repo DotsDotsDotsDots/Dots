@@ -46,6 +46,11 @@ sh <(curl -L https://nixos.org/nix/install)
 # Install OhMyZSH:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Install OhMyTmux:
+git clone https://github.com/gpakosz/.tmux ~/.tmux
+ln -s -f ~.tmux/.tmux.conf ~/.tmux.conf
+cp .tmux/.tmux.conf.local ~/.tmux.conf.local
+
 # Install RustUp:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
