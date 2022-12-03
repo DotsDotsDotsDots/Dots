@@ -22,7 +22,7 @@ eval "$(thefuck --alias)"
 zstyle ':omz:update' mode auto
 zstyle ':omz:update' mode reminder
 
-# Uncomment the following line to change how often to auto-update (in days).
+# Configure auto-update frequency (in days).
 zstyle ':omz:update' frequency 14
 
 # Uncomment the following line to disable colors in ls.
