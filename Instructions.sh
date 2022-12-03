@@ -2,10 +2,10 @@
 1) StockFish
 2) DropZone
 3) TestFlight
-4) Encrypto
-5) HextEdit
+4) HextEdit
+5) UserScripts
 6) KaBlock
-7) UserScripts
+7) Encrypto
 8) XCode
 9) Vectornator
 10) Orbot
