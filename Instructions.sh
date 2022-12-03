@@ -26,7 +26,7 @@ softwareupdate --install-rosetta
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install Formulae:
-brew install asciinema bat btop burp-suite cowsay coreutils discord fd fontconfig fortune fzf gh gnupg git go hugo imagemagick lazygit lsd m-cli mas neofetch neovim nmap notion node podman pv radare2 ripgrep shellcheck spotify starship sampler thefuck tmux tldr telegram tree vim wget weechat alfred alt-tab amethyst android-studio appcleaner cheatsheet element fig hyper insomnia maccy minecraft neovide numi obsidian onefetch onyx postman session steam topnotch visual-studio-code hiddenbar google-chrome reattach-to-user-namespace zsh-async zsh-autosuggestions zsh-completions zsh-fast-syntax-highlighting zsh-git-prompt zsh-history-substring-search zsh-lovers zsh-navigation-tools zsh-vi-mode zsh-you-should-use
+brew install asciinema bat btop burp-suite cowsay coreutils discord fd fontconfig fortune fzf gh gnupg git go hugo imagemagick lazygit lsd m-cli mas neofetch neovim nmap notion node podman pv radare2 ripgrep shellcheck ciphey spotify starship sampler thefuck tmux tldr telegram tree vim wget weechat alfred alt-tab amethyst android-studio appcleaner cheatsheet element fig hyper insomnia maccy minecraft neovide numi obsidian onefetch onyx postman session steam topnotch visual-studio-code hiddenbar google-chrome reattach-to-user-namespace zsh-async zsh-autosuggestions zsh-completions zsh-fast-syntax-highlighting zsh-git-prompt zsh-history-substring-search zsh-lovers zsh-navigation-tools zsh-vi-mode zsh-you-should-use
 
 # Install Casks:
 brew tap homebrew/cask-fonts
