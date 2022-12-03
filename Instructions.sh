@@ -117,12 +117,6 @@ keybase pgp export | pbcopy
 gpg --list-secret-keys --keyid-format=long
 
 # Setup GitHub:
-git config --global core.editor "nvim"
-git config --global user.name "Shreyash Gavali"
-git config --global user.email "@iCloud.com"
-git config --global credential.helper "osxkeychain"
-git config --global user.signingkey "Key ID"
-git config --global commit.gpgsign true
 gh auth login
 gh auth status
 gh ssh-key list
