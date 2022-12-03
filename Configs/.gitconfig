@@ -1,6 +1,12 @@
 [user]
-  name = "Shreyash Gavali"
-  email = "@iCloud.com"
+
+        name = "Shreyash Gavali"
+        email = "@iCloud.com"
+        signingkey = "0000000000000000"
+
+[credential]
+
+        helper = osxkeychain
 
 [alias]
 
@@ -96,6 +102,9 @@
 
 	# Speed up commands involving untracked files such as `git status`.
 	untrackedCache = true
+
+        # Setup default code editor
+        editor = nvim
 
 [color]
 
