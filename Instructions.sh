@@ -6,13 +6,14 @@
 5) UserScripts
 6) KaBlock
 7) XCode
-8) Encrypto
-9) Vectornator
-10) Orbot
-11) Transmit
-12) Terminus
-13) Amphetamine
-14) Codye
+8) WhatsApp
+9) Encrypto
+10) Vectornator
+11) Orbot
+12) Transmit
+13) Terminus
+14) Amphetamine
+15) Codye
 
 # Install Third Party Apps:
 1) TinkerTool
