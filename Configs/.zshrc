@@ -10,17 +10,15 @@ export ZSH="$HOME/.oh-my-zsh"
 # Set PATH, MANPATH, etc., for Homebrew.
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+# Set name of the theme to load.
 ZSH_THEME="spaceship"
 SPACESHIP_PROMPT_ADD_NEWLINE="false"
 
+# Configure prompt.
 eval "$(starship init zsh)"
 eval "$(thefuck --alias)"
 
-# Uncomment one of the following lines to change the auto-update behavior
+# Uncomment one of the following lines to change the auto-update behavior.
 zstyle ':omz:update' mode auto
 zstyle ':omz:update' mode reminder
 
@@ -36,11 +34,7 @@ DISABLE_AUTO_TITLE="false"
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
 
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
+# Load plugins.
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
@@ -55,26 +49,42 @@ if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 fi
 
-# GPG configuration
+# Enable persistent REPL history for `node`.
+export NODE_REPL_HISTORY=~/.node_history
+
+# Use sloppy mode by default, matching web browsers.
+export NODE_REPL_MODE='sloppy'
+
+# Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
+export PYTHONIOENCODING='UTF-8'
+
+# Omit duplicates and commands that begin with a space from history.
+export HISTCONTROL='ignoreboth'
+
+# Prefer US English and use UTF-8.
+export LANG='en_US.UTF-8'
+export LC_ALL='en_US.UTF-8'
+
+# Highlight section titles in manual pages.
+export LESS_TERMCAP_md="${yellow}"
+
+# Don’t clear the screen after quitting a manual page.
+export MANPAGER='less -X'
+
+# Avoid issues with `gpg` as installed via Homebrew.
 export GPG_TTY=$(tty)
 
-# User configuration
+# User configuration.
 export MANPATH="/usr/local/man:$MANPATH"
 
-# You may need to manually set your language environment
-export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
+# Preferred editor for local and remote sessions.
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='nvim'
 else
   export EDITOR='vim'
 fi
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
+# Set personal aliases, overriding those provided by oh-my-zsh libs.
 alias emacs="emacs --no-window-system"
 alias vim="nvim"
 alias vi="vim"
