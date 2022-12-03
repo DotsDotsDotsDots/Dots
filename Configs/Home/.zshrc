@@ -18,7 +18,7 @@ SPACESHIP_PROMPT_ADD_NEWLINE="false"
 eval "$(starship init zsh)"
 eval "$(thefuck --alias)"
 
-# Uncomment one of the following lines to change the auto-update behavior.
+# Configure the auto-update behavior.
 zstyle ':omz:update' mode auto
 zstyle ':omz:update' mode reminder
 
