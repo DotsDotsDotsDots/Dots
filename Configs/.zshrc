@@ -191,7 +191,7 @@ alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/C
 # Intuitive map function.
 alias map="xargs -n1"
 
-# One ProTip™:
+# One ProTip™.
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 	alias "${method}"="lwp-request -m '${method}'"
 done
