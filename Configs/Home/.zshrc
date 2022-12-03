@@ -25,7 +25,7 @@ zstyle ':omz:update' mode reminder
 # Configure auto-update frequency (in days).
 zstyle ':omz:update' frequency 14
 
-# Uncomment the following line to disable colors in ls.
+# Configure colors in ls.
 DISABLE_LS_COLORS="false"
 
 # Uncomment the following line to disable auto-setting terminal title.
