@@ -78,7 +78,7 @@ cd ~/
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 mv /opt/homebrew/opt/emacs-mac/Emacs.app /Applications/Emacs.app
-cp ~/Dots/Configs/Doom/* ~/.doom.d/.
+cp ~/Dots/Configs/Emacs/* ~/.doom.d/.
 ~/.emacs.d/bin/doom sync
 ~/.emacs.d/bin/doom upgrade
 ~/.emacs.d/bin/doom doctor
@@ -130,5 +130,5 @@ vim ~/.doom.d/config.el
 cp ~/Dots/Configs/SecureShell/* ~/.ssh/config
 cp ~/Dots/Configs/StarShip/* ~/.config/starship.toml
 cp ~/Dots/Configs/Vim/* ~/.vim_runtime/vimrcs/.
-cp ~/Dots/Configs/Doom/* ~/.doom.d/.
+cp ~/Dots/Configs/Emacs/* ~/.doom.d/.
 cp ~/Dots/Configs/Home/.* ~/.
