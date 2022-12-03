@@ -1,7 +1,7 @@
 # Install AppStore Apps:
 1) StockFish
 2) DropZone
-3) Amphetamine
+3) TestFlight
 4) Encrypto
 5) HextEdit
 6) KaBlock
@@ -11,7 +11,7 @@
 10) Orbot
 11) Transmit
 12) Terminus
-13) TestFlight
+13) Amphetamine
 14) Codye
 
 # Install Third Party Apps:
