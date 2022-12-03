@@ -122,7 +122,13 @@ gh auth status
 gh ssh-key list
 gh gpg-key list
 
+# Add Mail Address:
+vim ~/.gitconfig
+vim ~/.doom.d/config.el
+
 # Setup DotFiles:
 cp ~/Dots/Configs/SecureShell/* ~/.ssh/config
 cp ~/Dots/Configs/StarShip/* ~/.config/starship.toml
+cp ~/Dots/Configs/Vim/* ~/.vim_runtime/vimrcs/.
+cp ~/Dots/Configs/Doom/* ~/.doom.d/.
 cp ~/Dots/Configs/Home/.* ~/.
