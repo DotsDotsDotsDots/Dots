@@ -31,7 +31,7 @@ DISABLE_LS_COLORS="false"
 # Configure auto-setting terminal title.
 DISABLE_AUTO_TITLE="false"
 
-# Uncomment the following line to enable command auto-correction.
+# Configure command auto-correction.
 ENABLE_CORRECTION="true"
 
 # Load plugins.
@@ -84,7 +84,7 @@ else
   export EDITOR='vim'
 fi
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs.
+# Set personal aliases.
 alias emacs="emacs --no-window-system"
 alias vim="nvim"
 alias vi="vim"
@@ -96,16 +96,12 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~"
 alias -- -="cd -"
 
 # Always enable colored `grep` output.
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-
-# Enable aliases to be sudo’ed.
-alias sudo='sudo '
 
 # Get week number.
 alias week='date +%V'
