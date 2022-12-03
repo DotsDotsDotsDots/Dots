@@ -28,7 +28,7 @@ zstyle ':omz:update' frequency 14
 # Configure colors in ls.
 DISABLE_LS_COLORS="false"
 
-# Uncomment the following line to disable auto-setting terminal title.
+# Configure auto-setting terminal title.
 DISABLE_AUTO_TITLE="false"
 
 # Uncomment the following line to enable command auto-correction.
