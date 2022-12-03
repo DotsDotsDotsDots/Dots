@@ -5,8 +5,8 @@
 4) HextEdit
 5) UserScripts
 6) KaBlock
-7) Encrypto
-8) XCode
+7) XCode
+8) Encrypto
 9) Vectornator
 10) Orbot
 11) Transmit
