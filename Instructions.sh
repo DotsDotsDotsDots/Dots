@@ -1,5 +1,5 @@
 # Install AppStore Apps:
-1) Stockfish
+1) StockFish
 2) DropZone
 3) Amphetamine
 4) Encrypto
