@@ -71,14 +71,14 @@ git clean -d --force
 git pull --rebase
 pip3 install requests
 python3 ~/.vim_runtime/update_plugins.py
-cp ~/Dots/Configs/Vim/*.vim ~/.vim_runtime/vimrcs/.
+cp ~/Dots/Configs/Vim/* ~/.vim_runtime/vimrcs/.
 cd ~/
 
 # Install Doom:
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 mv /opt/homebrew/opt/emacs-mac/Emacs.app /Applications/Emacs.app
-cp ~/Dots/Configs/Doom/*.el ~/.doom.d/.
+cp ~/Dots/Configs/Doom/* ~/.doom.d/.
 ~/.emacs.d/bin/doom sync
 ~/.emacs.d/bin/doom upgrade
 ~/.emacs.d/bin/doom doctor
@@ -129,8 +129,6 @@ gh ssh-key list
 gh gpg-key list
 
 # Setup DotFiles:
-cp ~/Dots/Configs/config ~/.ssh/config
-cp ~/Dots/Configs/.hyper.js ~/.hyper.js
-cp ~/Dots/Configs/.zprofile ~/.zprofile
-cp ~/Dots/Configs/.zshrc ~/.zshrc
-cp ~/Dots/Configs/starship.toml ~/.config/starship.toml
+cp ~/Dots/Configs/SecureShell/* ~/.ssh/config
+cp ~/Dots/Configs/StarShip/* ~/.config/starship.toml
+cp ~/Dots/Configs/Home/.* ~/.
