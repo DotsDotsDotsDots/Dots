@@ -20,7 +20,6 @@ eval "$(thefuck --alias)"
 
 # Configure the auto-update behavior.
 zstyle ':omz:update' mode auto
-zstyle ':omz:update' mode reminder
 
 # Configure auto-update frequency (in days).
 zstyle ':omz:update' frequency 14
