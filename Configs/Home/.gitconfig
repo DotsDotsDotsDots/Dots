@@ -157,8 +157,8 @@
 [push]
 
 	# Make `git push` push relevant annotated tags when pushing branches out.
-        default = simple	
-        followTags = true
+default = simple	
+followTags = true
 
 [url "git@github.com:"]
 
