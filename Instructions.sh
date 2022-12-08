@@ -74,7 +74,6 @@ git pull --rebase
 pip3 install requests
 python3 ~/.vim_runtime/update_plugins.py
 cp ~/Dots/Configs/Vim/* ~/.vim_runtime/vimrcs/.
-cd ~/
 
 # Install Doom:
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d
