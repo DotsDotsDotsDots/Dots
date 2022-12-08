@@ -15,7 +15,7 @@
 14) Codye
 
 # Install Third Party Apps:
-015) TinkerTool
+05) TinkerTool
 
 # Install Xcode Command Line Tools:
 sudo xcode-select --install
