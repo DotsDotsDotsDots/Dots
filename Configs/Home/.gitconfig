@@ -6,7 +6,7 @@
 
 [credential]
 
-        helper = osxkeychain
+  helper = osxkeychain
 
 [alias]
 
