@@ -40,6 +40,7 @@ brew install --cask vmware-fusion
 brew install --cask podman-desktop
 brew install --cask docker
 brew install --cask imhex
+brew install --cask ipfs
 brew install --cask transmission
 brew install --cask keybase
 
