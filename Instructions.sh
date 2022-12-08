@@ -1,19 +1,18 @@
 # Install AppStore Apps:
-1) StockFish
-2) DropZone
-3) TestFlight
-4) HextEdit
-5) UserScripts
-6) KaBlock
-7) XCode
-8) WhatsApp
-9) Encrypto
-10) Vectornator
-11) Orbot
-12) Transmit
-13) Terminus
-14) Amphetamine
-15) Codye
+01) StockFish
+02) DropZone
+03) TestFlight
+04) HextEdit
+05) UserScripts
+06) KaBlock
+07) XCode
+08) Encrypto
+09) Vectornator
+10) Orbot
+11) Transmit
+12) Terminus
+13) Amphetamine
+14) Codye
 
 # Install Third Party Apps:
 1) TinkerTool
