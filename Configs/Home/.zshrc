@@ -2,7 +2,7 @@
 [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 
 # If you come from bash you might have to change your $PATH.
-export PATH="$PATH:$HOME$HOME/Developer/Flutter/bin:$HOME/.cargo/bin:$HOME/.emacs.d/bin"
+export PATH="$PATH:$HOME/Developer$HOME/Developer/Flutter/bin:$HOME/.cargo/bin:$HOME/.emacs.d/bin"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
