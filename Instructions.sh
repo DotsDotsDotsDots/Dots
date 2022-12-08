@@ -39,6 +39,7 @@ brew install --cask gpg-suite
 brew install --cask vmware-fusion
 brew install --cask podman-desktop
 brew install --cask docker
+brew install --cask imhex
 brew install --cask keybase
 
 # Install Nix:
