@@ -103,8 +103,8 @@
 	# Speed up commands involving untracked files such as `git status`.
 	untrackedCache = true
 
-    # Setup default code editor.
-      editor = nvim
+  # Setup default code editor.
+    editor = nvim
 
 [color]
 
