@@ -35,7 +35,6 @@ brew tap railwaycat/emacsmacport
 brew install emacs-mac --with-modules
 brew install --cask brooklyn --no-quarantine
 brew install --cask font-victor-mono-nerd-font
-
 brew install --cask podman-desktop
 brew install --cask arduino
 brew install --cask docker
