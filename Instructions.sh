@@ -102,7 +102,6 @@ sudo gem install cocoapods
 mkdir ~/Developer/Site
 cd ~/Developer/Site
 npm create astro@latest -- --template blog
-npm cache clean –-force
 
 # Setup Secure Shell:
 ssh-keygen -t ed25519 -C "GavaliShreyash@iCloud.com"
@@ -122,10 +121,6 @@ gh auth login
 gh auth status
 gh ssh-key list
 gh gpg-key list
-
-# Add Mail Address:
-vim ~/.gitconfig
-vim ~/.doom.d/config.el
 
 # Setup DotFiles:
 cp ~/Dots/Configs/SecureShell/* ~/.ssh/config
