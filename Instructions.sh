@@ -105,7 +105,7 @@ npm create astro@latest -- --template blog
 npm cache clean –-force
 
 # Setup Secure Shell:
-ssh-keygen -t ed25519 -C "Gavali@iCloud.com"
+ssh-keygen -t ed25519 -C "GavaliShreyash@iCloud.com"
 eval "$(ssh-agent -s)"
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub | pbcopy
