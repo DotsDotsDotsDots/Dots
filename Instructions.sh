@@ -17,7 +17,7 @@
 
 # Install Third Party Apps:
 01) TinkerTool
-
+ 
 # Install Xcode Command Line Tools:
 sudo xcode-select --install
 sudo xcodebuild -license accept
