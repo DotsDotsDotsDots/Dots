@@ -9,11 +9,10 @@
 08) Encrypto
 09) Vectornator
 10) Orbot
-11) Transmit
-12) Terminus
-13) Amphetamine
-14) Codye
-15) Endel
+11) Terminus
+12) Amphetamine
+13) Codye
+14) Endel
 
 # Install Third Party Apps:
 01) TinkerTool
