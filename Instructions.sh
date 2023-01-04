@@ -15,7 +15,7 @@
 14) Endel
 
 # Install Third Party Apps:
-01) TinkerTool
+15) TinkerTool
 
 # Install Xcode Command Line Tools:
 sudo xcode-select --install
